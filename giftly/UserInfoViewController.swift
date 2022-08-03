@@ -12,6 +12,7 @@ class UserInfoViewController: UIViewController {
     
     @IBOutlet weak var nameOver: UILabel!
     
+  
     @IBOutlet weak var colorTextField: UITextField!
     
     @IBOutlet weak var storeTextField: UITextField!

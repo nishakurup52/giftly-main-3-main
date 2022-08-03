@@ -17,7 +17,6 @@ class ProfileViewController: UIViewController {
     
     @IBOutlet weak var restaurantLabel: UILabel!
     
-    
     @IBOutlet weak var shoeLabel: UILabel!
     
     
