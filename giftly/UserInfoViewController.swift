@@ -7,11 +7,11 @@ import UIKit
 
 class UserInfoViewController: UIViewController {
 
+    
     @IBOutlet weak var nameTextField: UITextField!
     var nameLength = 0
     
     @IBOutlet weak var nameOver: UILabel!
-    
   
     @IBOutlet weak var colorTextField: UITextField!
     
@@ -19,12 +19,9 @@ class UserInfoViewController: UIViewController {
     
     @IBOutlet weak var restaurantTextField: UITextField!
     
-    
     @IBOutlet weak var shoeTextField: UITextField!
     
-    
     @IBOutlet weak var clothingTextField: UITextField!
-    
     
     
     override func viewDidLoad() {
@@ -33,13 +30,10 @@ class UserInfoViewController: UIViewController {
     }
     
     
-    
     @IBAction func nextTapped(_ sender: Any) {
-    
         if let name = nameTextField.text {
             nameLength = name.count
         }
-        
         
         if nameLength > 2 {
             username = nameTextField.text!
@@ -54,6 +48,7 @@ class UserInfoViewController: UIViewController {
             nameOver.isHidden = false
         }
     }
+    
     
     
     /*
