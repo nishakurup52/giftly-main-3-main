@@ -22,6 +22,7 @@ class ProfileViewController: UIViewController {
     
     @IBOutlet weak var clothingLable: UILabel!
     
+    @IBOutlet weak var imageDisplay: UIImageView!
     
     
     override func viewDidLoad() {
@@ -32,7 +33,7 @@ class ProfileViewController: UIViewController {
         restaurantLabel.text = restaurants
         shoeLabel.text = shoes
         clothingLable.text = cloth
-        
+        imageDisplay.layer.cornerRadius = imageDisplay.frame.size.width/2
         
     
     }

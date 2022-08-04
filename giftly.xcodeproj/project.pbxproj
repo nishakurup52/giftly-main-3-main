@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD31F9DD289AF06F009F77D6 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD31F9DC289AF06F009F77D6 /* Profile.swift */; };
+		BD31F9E1289C03F7009F77D6 /* CharlotteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD31F9E0289C03F7009F77D6 /* CharlotteViewController.swift */; };
 		BD849BF92898627B0051E7C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD849BF82898627B0051E7C0 /* AppDelegate.swift */; };
 		BD849BFB2898627B0051E7C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD849BFA2898627B0051E7C0 /* SceneDelegate.swift */; };
 		BD849BFD2898627B0051E7C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD849BFC2898627B0051E7C0 /* ViewController.swift */; };
@@ -42,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD31F9DC289AF06F009F77D6 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		BD31F9E0289C03F7009F77D6 /* CharlotteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharlotteViewController.swift; sourceTree = "<group>"; };
 		BD849BF52898627B0051E7C0 /* giftly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = giftly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD849BF82898627B0051E7C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD849BFA2898627B0051E7C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -124,6 +128,8 @@
 				BDE05EE628996636008131C7 /* PhotoViewController.swift */,
 				BDBFDC612899AC6900DD3396 /* ProfileViewController.swift */,
 				BDBFDC5F2899A46F00DD3396 /* globalVariables.swift */,
+				BD31F9DC289AF06F009F77D6 /* Profile.swift */,
+				BD31F9E0289C03F7009F77D6 /* CharlotteViewController.swift */,
 			);
 			path = giftly;
 			sourceTree = "<group>";
@@ -277,6 +283,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDE05EE9289978BB008131C7 /* SignUpViewController.swift in Sources */,
+				BD31F9E1289C03F7009F77D6 /* CharlotteViewController.swift in Sources */,
+				BD31F9DD289AF06F009F77D6 /* Profile.swift in Sources */,
 				BDC3C61B2899926D00941DB0 /* UserInfoViewController.swift in Sources */,
 				BDBFDC602899A46F00DD3396 /* globalVariables.swift in Sources */,
 				BD849BFD2898627B0051E7C0 /* ViewController.swift in Sources */,

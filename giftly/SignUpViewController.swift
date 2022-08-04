@@ -37,7 +37,7 @@ class SignUpViewController: UIViewController {
             emailText = email
         }
         
-        if emailText == "michelleaklufi@gmail.com" {
+        if emailText == "tina@gmail.com" {
             passwordPrompt.isHidden = false
             passwordTextField.isHidden = false
             validEmail.isHidden = true
